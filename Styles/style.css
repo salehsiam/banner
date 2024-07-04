@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.banner {
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)),
+    url(/img/pexels-pixabay-326650.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  color: aliceblue;
+  text-align: center;
+  width: 80%;
+}
+.content h2 {
+  color: blue;
+  font-size: 54px;
+  text-transform: uppercase;
+}
+.content p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.content button {
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: aqua;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content button:hover {
+  background-color: yellowgreen;
+  transition: 0.5s ease-in;
+}
