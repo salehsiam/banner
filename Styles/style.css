@@ -7,7 +7,7 @@
 .banner {
   height: 90vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.412), rgba(0, 0, 0, 0.369)),
     url(/img/pexels-pixabay-326650.jpg);
   background-repeat: no-repeat;
   background-size: cover;
